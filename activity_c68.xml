@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".m1">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:fontFamily="@font/alfa_slab_one"
+        android:text="Kalíngawàn"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:fontFamily="@font/autour_one"
+        android:textAlignment="center"
+        android:text="Kalíngawàn - Libangan"
+        android:textColor="@color/purple_700"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textVie.w7"
+        android:layout_width="137dp"
+        android:layout_height="64dp"
+        android:text="noun
+        Kahulugan:"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="143dp"
+        android:paddingLeft="20dp"
+        android:paddingEnd="20dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="20dp"
+        android:text="Ang libangan ay isang gawaing nakakalibang na ginagawa ng mga tao upang maaliw , o para sa rekreasyon."
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="120dp"
+        android:layout_height="41dp"
+        android:text="Halimbawa:"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="Libangan nya ang pag kanta."
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+</LinearLayout>

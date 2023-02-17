@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".m1">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="87dp"
+        android:fontFamily="@font/alfa_slab_one"
+        android:text="Tingóg"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:fontFamily="@font/autour_one"
+        android:text="Tingóg - Boses"
+        android:textAlignment="center"
+        android:textColor="@color/purple_700"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textVie.w7"
+        android:layout_width="142dp"
+        android:layout_height="70dp"
+        android:text="noun
+        Kahulugan:"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        android:paddingLeft="20dp"
+        android:paddingEnd="20dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="20dp"
+        android:text=" Tunog na nalilikha o lumalabas sa bibig ng tao sa pagsasalita, pag awit,at iba pa.. "
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="134dp"
+        android:layout_height="52dp"
+        android:text="Halimbawa:"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="Maganda ang boses ng kaibigan nya."
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+</LinearLayout>
